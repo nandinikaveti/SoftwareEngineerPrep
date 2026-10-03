@@ -1,0 +1,10 @@
+a = 6
+b = 2
+c = a + b
+print(c)
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = a + b
+
+print("the sum of a and b is ", c)
