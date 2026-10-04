@@ -10,4 +10,4 @@ def print_filters( ):
         
 
 
-print(print_filters())
+print_filters()
