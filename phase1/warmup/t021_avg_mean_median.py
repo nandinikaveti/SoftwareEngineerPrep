@@ -1,16 +1,15 @@
-def avg_mean_median(n:list):
+def avg_median(nums:list):
     sum = 0
     avg = 0
     median = 0
-    for i in range(0, len(n)): 
-        sum = sum + n[i]
-    avg = sum/len(n)
+    for i in range(0, len(nums)):
+        sum += nums[i]
+    avg = sum/len(nums)
 
-    i = len(n)//2
-    median = n[i]
-    
-    print(median)
+    i = len(nums)//2
+    median = nums[i]
     print(avg)
+    print(median)
 
-n = (4, 3, 2)
-avg_mean_median(n)
+nums = (2,3,4)
+avg_median(nums)
