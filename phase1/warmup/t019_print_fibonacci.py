@@ -5,7 +5,5 @@ def fib(n):
         print(a)
         a, b = b, a+b
         
-
-
 print(fib(3))
         
