@@ -1,6 +1,5 @@
 def temp_converter( ):
-    x= None
-    while x:
+    while True:
         print("You can choose 1 for C to F and 2 for F to C")
         choice = int(input("Enter your choice:"))
         temp = int(input("Enter the number"))
