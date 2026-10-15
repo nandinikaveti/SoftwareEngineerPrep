@@ -1,7 +1,7 @@
 from decimal import Decimal
 import math
 
-def rounding(n):
+def floating(n):
     print(round(n, 2))
     print(format(n, '.2f'))
     print(Decimal(n))
@@ -11,5 +11,5 @@ def rounding(n):
 """This is a docstring."""
 """Is this a docstring? yes"""
 
-rounding(2.3456)
-rounding(-3.434)
+floating(2.3456)
+floating(-3.434)
