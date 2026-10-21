@@ -8,5 +8,5 @@ def per_change(old: int, new:int):
 
 print(per_change(50, 75))
 print(per_change(25, 50))
-print(per_change(90, 20))
+
 

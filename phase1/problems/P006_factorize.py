@@ -6,7 +6,7 @@ def factorize(n):
             if i in count:
                 count[i]+=1
             else:
-                count[i]= 1  #and add it to dict 
+                count[i]= 1  
             n//=i
         else:
             i+=1
