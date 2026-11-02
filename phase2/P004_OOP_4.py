@@ -15,12 +15,18 @@ def analyze_list(n):
             even_num.append(c)
         else:
             odd_num.append(c)
-    maximum = max(n)
-    minimum = min(n)
+        if n :
+            maximum = max(n)
+            minimum = min(n)
+        else: 
+            maximum = None
+            minimum = None
+    
+    
 
 
     return dictionary, count_digits, maximum, minimum, even_num, odd_num
     
 
-n = [1, 2, 3, 4]
+n = [1, 2, 3, 4, 5]
 print(analyze_list(n))
