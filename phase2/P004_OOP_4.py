@@ -1,0 +1,26 @@
+def analyze_list(n):
+    dictionary = {}
+    count_digits = 0
+    even_num = []
+    odd_num = []
+    for c in n:
+        count_digits +=1
+
+        if c in dictionary:
+            dictionary[c] += 1
+        else:
+            dictionary[c] = 1
+       
+        if c % 2 == 0:
+            even_num.append(c)
+        else:
+            odd_num.append(c)
+    maximum = max(n)
+    minimum = min(n)
+
+
+    return dictionary, count_digits, maximum, minimum, even_num, odd_num
+    
+
+n = [1, 2, 3, 4]
+print(analyze_list(n))
